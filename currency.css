@@ -1,31 +1,11 @@
 
-
-/* body{
-    background-image: repeating-linear-gradient(lightblue,white);
-    /* background: url("download.jpeg");
-    background-position: fill;
-    background-size: center; */
-/*}*/
-
-/* img{
-    width: 450px;
-    height: 650px;
-    position: absolute;
-    right: 70%;
-    left: 70%; 
-    border: 50px; 
-    padding: 20px;
-    border-color: black;
-} */
-
 header{
     display: block;
 }
 
+/* for the heading */
 h1{
-    /* currency convertor */
     text-align: center;
-    color: rgb(149, 27, 27);
     font-size: 60px ;
 }
 
@@ -34,52 +14,27 @@ h1{
     padding-top: 20px;
     padding-left: 20px;
     position: absolute;
-    margin-top: 4px;
     width: 800px;
-    height: 500px;
-    background: transparent;
+    height: 800px;
     top: 45%;
     left: 35%;
     transform: translate(-60%, -50%);
     border-radius: 20px;
-    /* box-shadow: 10px 10px 8px #980a0a; */
+    box-shadow: 10px 10px 8px #64dbdf;
 }
 
-.editorcard{
-    /* padding-top: 20px;
-    padding-left: 20px; */
-    position: absolute;
-    /* margin-top: 40px; */
-    width: 200px;
-    height: 2px;
-    background: transparent;
-    bottom: 85%;
-    left: 35%;
-    /* transform: translate(-60%, -50%); */
-    /* border-radius: 20px; */
-    /* box-shadow: 10px 10px 8px #980a0a; */
+.value{
+    display:inline;
 }
-
-hr {
-    margin: 1rem 0;
-    color: grey;
-    border: 20;
-    border-top: 1px solid;
-    opacity: 0.25;
-  }
-
-
 
 input[type="number"] 
 /* amount box */
 {
-    left: 50%;
     height: 33px;
     padding: 20px;
     border: 2px solid rgb(59, 59, 60);
     border-radius: 10px;
     outline: none;
-    /* font-weight: bold; */
     font-size: 20px;
 }
 ::placeholder
@@ -88,34 +43,6 @@ input[type="number"]
     font-size: 23px;
 }
 
-select{
-    margin-left: 40px;
-    width: 20px;
-    height: 40px;
-    border-radius: 100px;
-    outline: red;
-    font-size: 20px;
-}
-
-input[type="submit"]
-{
-    margin: 40px 180px;
-    width: 50%;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    background: rgb(128, 0, 0);
-    color: #fff;
-    font-size: 30px; 
-}
-
 input[type="submit"]:hover{
-    background: rgb(17, 42, 205);
     cursor: pointer;
-}
-
-#results{
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(137, 129, 185);
 }
